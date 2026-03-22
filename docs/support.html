@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mindful Bump Support</title>
+  <style>
+    :root {
+      --bg: #f4efe7;
+      --card: #fffdf8;
+      --text: #1f1b16;
+      --muted: #665d54;
+      --line: #dacdbd;
+      --accent: #8f5a31;
+      --accent-soft: #f4e9dc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 32px 20px 72px;
+    }
+    .topnav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .topnav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: 0 16px 36px rgba(31, 27, 22, 0.05);
+    }
+    h1, h2 {
+      margin: 0 0 14px;
+      line-height: 1.15;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.25rem;
+    }
+    p, li {
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+    ul {
+      margin: 10px 0 0 20px;
+      padding: 0;
+    }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+    .helpbox {
+      background: var(--accent-soft);
+      border: 1px solid #e1cbb6;
+      border-radius: 18px;
+      padding: 18px 20px;
+      margin: 18px 0 22px;
+    }
+    .divider {
+      height: 1px;
+      background: var(--line);
+      margin: 28px 0;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="topnav">
+      <a href="./index.html">Home</a>
+      <a href="./privacy.html">Privacy Policy</a>
+    </nav>
+    <section class="card">
+      <h1>Mindful Bump Support</h1>
+      <p class="meta">App version: 1.0.0</p>
+      <p>Need help with Mindful Bump? For support, billing questions, restore-purchase help, or feature feedback, contact us by email.</p>
+
+      <div class="helpbox">
+        <p><strong>Support email:</strong> <a href="mailto:feedback@mindfulbump.com">feedback@mindfulbump.com</a></p>
+        <p><strong>App name:</strong> Mindful Bump</p>
+        <p><strong>Bundle ID:</strong> com.mindfulbump.app</p>
+      </div>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is Mindful Bump?</strong><br>Mindful Bump is a Screen Time based mindfulness buffer app. It helps you pause before opening selected apps or categories by asking you to complete a short breathing or affirmation step.</p>
+
+      <p><strong>How do I start using it?</strong><br>Open the app, grant Screen Time / Family Controls permission, then choose the apps or categories you want to buffer.</p>
+
+      <p><strong>Why did the shield not jump directly back into the app?</strong><br>If notifications are disabled, you may need to switch back to Mindful Bump manually after tapping Start Buffer. This matches the current system behavior of the shield flow.</p>
+
+      <p><strong>Does Mindful Bump require an account?</strong><br>No. The current version of Mindful Bump does not require account sign-in.</p>
+
+      <p><strong>How do I restore purchases?</strong><br>Open the Pro page in Mindful Bump and tap Restore Purchases to resync your subscription status with Apple.</p>
+
+      <p><strong>How do I manage or cancel a subscription?</strong><br>Subscriptions are managed through your App Store account. On your device, open App Store subscription settings to manage or cancel your subscription.</p>
+
+      <p><strong>What does Mindful Bump Pro unlock?</strong><br>Mindful Bump Pro currently unlocks custom breathing duration, custom affirmation text, unlimited app/category management, monthly trend view, and local report export.</p>
+
+      <p><strong>Where can I read the privacy policy?</strong><br>See the current <a href="./privacy.html">Privacy Policy</a>.</p>
+
+      <h2>Legal Links</h2>
+      <ul>
+        <li><a href="./privacy.html">Privacy Policy</a></li>
+        <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a></li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h1>Mindful Bump 支持</h1>
+      <p class="meta">当前版本：1.0.0</p>
+      <p>如果你需要 Mindful Bump 的使用帮助、计费说明、恢复购买帮助或功能反馈，可以通过邮箱联系我们。</p>
+
+      <div class="helpbox">
+        <p><strong>支持邮箱：</strong> <a href="mailto:feedback@mindfulbump.com">feedback@mindfulbump.com</a></p>
+        <p><strong>应用名称：</strong> Mindful Bump</p>
+        <p><strong>Bundle ID：</strong> com.mindfulbump.app</p>
+      </div>
+
+      <h2>常见问题</h2>
+      <p><strong>Mindful Bump 是什么？</strong><br>Mindful Bump 是一款基于 Screen Time 的正念缓冲 App。它会在你打开指定 App 或类别前，要求你先完成一次简短的呼吸或确认话术步骤。</p>
+
+      <p><strong>如何开始使用？</strong><br>打开 App 后，先完成 Screen Time / Family Controls 授权，然后选择你想要缓冲的 App 或类别。</p>
+
+      <p><strong>为什么点击 Start Buffer 后没有自动回到 App？</strong><br>如果通知权限未开启，点击 Start Buffer 后你可能需要手动切回 Mindful Bump。这是当前 shield 流程下的系统行为。</p>
+
+      <p><strong>Mindful Bump 需要登录账号吗？</strong><br>不需要。当前版本不要求登录账号。</p>
+
+      <p><strong>如何恢复购买？</strong><br>打开 Mindful Bump 的 Pro 页面，点击“恢复购买”，即可和 Apple 重新同步你的订阅状态。</p>
+
+      <p><strong>如何管理或取消订阅？</strong><br>订阅通过你的 App Store 账户管理。你可以在设备上的 App Store 订阅设置中管理或取消订阅。</p>
+
+      <p><strong>Mindful Bump Pro 解锁什么？</strong><br>Mindful Bump Pro 当前可解锁自定义呼吸时长、自定义确认话术、不限数量管理 App/类别、月度趋势视图和本地报告导出。</p>
+
+      <p><strong>去哪里看隐私政策？</strong><br>请查看当前的 <a href="./privacy.html">隐私政策</a>。</p>
+
+      <h2>法律链接</h2>
+      <ul>
+        <li><a href="./privacy.html">隐私政策</a></li>
+        <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">使用条款</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

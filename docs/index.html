@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mindful Bump</title>
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --card: #fffaf1;
+      --text: #1f1a14;
+      --muted: #6e6256;
+      --line: #d8c7b2;
+      --accent: #2f6b4f;
+      --accent-soft: #e4efe9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #f9f5ee 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 18px 40px rgba(31, 26, 20, 0.06);
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1;
+    }
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 1rem;
+    }
+    .links {
+      display: grid;
+      gap: 14px;
+      margin-top: 24px;
+    }
+    a.card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--accent-soft);
+      border: 1px solid #bcd3c7;
+      border-radius: 18px;
+      padding: 18px 20px;
+    }
+    a.card strong {
+      display: block;
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+    .foot {
+      margin-top: 20px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Mindful Bump</h1>
+      <p>Mindful Bump is a Screen Time based mindfulness buffer app that helps you pause before opening selected apps or categories.</p>
+      <p>Mindful Bump 是一款基于 Screen Time 的正念缓冲应用，帮助你在打开指定 App 或类别前先停顿一下。</p>
+      <div class="links">
+        <a class="card" href="./privacy.html">
+          <strong>Privacy Policy</strong>
+          View the current privacy policy for Mindful Bump.
+        </a>
+        <a class="card" href="./support.html">
+          <strong>Support</strong>
+          Contact support and view common help information.
+        </a>
+      </div>
+      <p class="foot">Support email: <a href="mailto:feedback@mindfulbump.com">feedback@mindfulbump.com</a></p>
+    </section>
+  </main>
+</body>
+</html>
